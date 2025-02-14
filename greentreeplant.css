@@ -1,0 +1,136 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #2f5d3b;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4CAF50, #2f5d3b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #2f5d3b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Events Section */
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+/* Individual Event Cards */
+.event {
+    background: #D0F0C0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transition: 0.3s;
+}
+
+/* Event Images */
+.event img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Hover Effect */
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Event Title */
+.event h2 {
+    color: #2f5d3b;
+}
+
+/* Join Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+
+
+
+.btn:hover {
+    background-color: #367c39;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2f5d3b;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
